@@ -1,0 +1,30 @@
+#call {
+    background-color: darksalmon;
+    float: right;
+    font-size: 25px;
+}
+body {
+    background-color: #6B8E23;
+}
+h1 {
+    background-color: dodgerblue;
+    color: mistyrose;
+    margin: 0px;
+    font-family: "Cambria";
+}
+p{
+    margin-top: 15px;
+    font-size: 25px;
+    color: antiquewhite;
+}
+canvas{
+    border: 5px solid honeydew;
+    border-radius: 22px;
+    animation-name: p;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes p{
+    from{box-shadow: 3px 3px 40px navy;}
+    to{box-shadow: 3px 3px 40px  palevioletred;}
+}
